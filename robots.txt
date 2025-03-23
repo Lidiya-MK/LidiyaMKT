@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lidiya-mamo-kibret.vercel.app/sitemap.xml
