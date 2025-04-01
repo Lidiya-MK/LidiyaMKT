@@ -1,7 +1,7 @@
 {
     "rewrites": [
       {
-        "source": "/sitemap.xml",
+        "source": "/Sitemap.xml",
         "destination": "/Sitemap.xml", 
         "headers": {
           "Content-Type": "application/xml"
