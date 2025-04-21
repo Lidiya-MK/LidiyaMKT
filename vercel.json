@@ -1,5 +1,7 @@
 {
-    "rewrites": [
+    
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
       {
         "source": "/Sitemap.xml",
         "destination": "/Sitemap.xml", 
@@ -9,3 +11,4 @@
       }
     ]
   }
+
