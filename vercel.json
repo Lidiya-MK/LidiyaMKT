@@ -1,14 +1,16 @@
 {
-    
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-      {
-        "source": "/Sitemap.xml",
-        "destination": "/Sitemap.xml", 
-        "headers": {
-          "Content-Type": "application/xml"
-        }
-      }
-    ]
-  }
-
+    {
+      "source": "/Sitemap.xml",
+      "destination": "/Sitemap.xml"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/Sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml" }
+      ]
+    }
+  ]
+}
