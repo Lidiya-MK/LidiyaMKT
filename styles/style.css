@@ -54,6 +54,11 @@ body, html {
     color: white;
 }
 
+.links:hover{
+    color:#FF32EE;
+    text-decoration: underline;
+}
+
 main {
     display: flex;
     flex-direction: column;
