@@ -56,7 +56,7 @@ body, html {
 
 .links:hover{
     color:#FF32EE;
-    font-size: larger;
+    font-size: 1.2rem;
     transition-duration: 1s;
     text-decoration: underline;
 }
